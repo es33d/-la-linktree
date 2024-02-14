@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(107, 88, 89);
+    font-family: 'Inconsolata', monospace;
+  }
+  
+ /* Rectangle */
+  .rounded-rectangle {
+    width: 140px; /* Ширина прямоугольника */
+    padding: 10px; /* Отступы внутри прямоугольника */
+    border-radius: 10px; /* Радиус скругления углов */
+    background-color: #4d3f3f; /* Цвет фона */
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Анимация изменения цвета фона и размера текста */
+  }
+  
+  .rounded-rectangle a {
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    color: #f7eded; /* Цвет текста ссылки */
+    font-weight: bold; /* Жирный текст ссылки */
+  }
+
+
+  .rounded-rectangle p {
+    margin-top: 10px; /* Отступ сверху от ссылки до текста */
+  }
+
+  .rounded-rectangle:hover {
+    background-color: #6d5f5f; /* Новый цвет фона при наведении */
+    transform: scale(1.1); /* Увеличиваем размер прямоугольника при наведении */
+  }
+  
+  .rounded-rectangle a {
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    color: #f7eded; /* Цвет текста ссылки */
+    font-weight: bold; /* Жирный текст ссылки */
+
+  }
+  
+  .rounded-rectangle p {
+    margin-top: 10px; /* Отступ сверху от ссылки до текста */
+  }
+
+   /* Rectangle2 */
+   .rounded-rectangle2 {
+    width: 140px; /* Ширина прямоугольника */
+    padding: 10px; /* Отступы внутри прямоугольника */
+    border-radius: 10px; /* Радиус скругления углов */
+    background-color: #4d3f3f; /* Цвет фона */
+    text-align: center; /* Выравнивание текста по центру */
+    margin-top: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Анимация изменения цвета фона и размера текста */
+  }
+  
+  .rounded-rectangle2 a {
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    color: #f7eded; /* Цвет текста ссылки */
+    font-weight: bold; /* Жирный текст ссылки */
+  }
+
+
+  .rounded-rectangle2 p {
+    margin-top: 10px; /* Отступ сверху от ссылки до текста */
+  }
+
+  .rounded-rectangle2:hover {
+    background-color: #6d5f5f; /* Новый цвет фона при наведении */
+    transform: scale(1.1); /* Увеличиваем размер прямоугольника при наведении */
+  }
+  
+  .rounded-rectangle2 a {
+    text-decoration: none; /* Убираем подчеркивание у ссылки */
+    color: #f7eded; /* Цвет текста ссылки */
+    font-weight: bold; /* Жирный текст ссылки */
+  }
+  
+  .rounded-rectangle2 p {
+    margin-top: 10px; /* Отступ сверху от ссылки до текста */
+  }
+   
+    /* Rectangle3 */
+    .rounded-rectangle3 {
+      width: 140px; /* Ширина прямоугольника */
+      padding: 10px; /* Отступы внутри прямоугольника */
+      border-radius: 10px; /* Радиус скругления углов */
+      background-color: #4d3f3f; /* Цвет фона */
+      text-align: center; /* Выравнивание текста по центру */
+      margin-top: 5px;
+      transition: background-color 0.3s ease, transform 0.3s ease; /* Анимация изменения цвета фона и размера текста */
+    }
+    
+    .rounded-rectangle3 a {
+      text-decoration: none; /* Убираем подчеркивание у ссылки */
+      color: #f7eded; /* Цвет текста ссылки */
+      font-weight: bold; /* Жирный текст ссылки */
+    }
+  
+  
+    .rounded-rectangle3 p {
+      margin-top: 10px; /* Отступ сверху от ссылки до текста */
+    }
+  
+    .rounded-rectangle3:hover {
+      background-color: #6d5f5f; /* Новый цвет фона при наведении */
+      transform: scale(1.1); /* Увеличиваем размер прямоугольника при наведении */
+    }
+    
+    .rounded-rectangle3 a {
+      text-decoration: none; /* Убираем подчеркивание у ссылки */
+      color: #f7eded; /* Цвет текста ссылки */
+      font-weight: bold; /* Жирный текст ссылки */
+    }
+    
+    .rounded-rectangle3 p {
+      margin-top: 10px; /* Отступ сверху от ссылки до текста */
+    }
+
+/* containers */
+  .name-container {
+    text-align: center;
+  }
+  .container {
+    width: 100%;
+    height: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .links-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .links-container a {
+    width: 80%;
+  }
+  
+  .eseed-links {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  /* other */
+.img {
+  width: 150px;
+  height: 150px; 
+  border-radius: 50%;
+  margin-top: 85px;
+  text-align: center;
+
+}
+
+  @media (min-width: 768px) {
+    .link {
+      width: 100%;
+    }
+  }
+  @media (min-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+
